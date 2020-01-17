@@ -3,22 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <h1 id="title">freeCodeCamp Survey Form </h1>
-    <p id="description">Thank you for taking the time to help us improve the platform </p>
-    <form id="survey-form" action="">
-      <input id="name" type="text">
-      <input id="email" type="text">
-      <input id="number" type="text">
-
-
-    </form>
-
-
+    <main class="container-fluid">
+      <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+      <p id="description" class="text-center">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="form col-md-4">
+          <form id="survey-form" action="">
+            <div>
+              <label id="name-label" for="name">Name </label>
+            </div>
+            <div>
+              <input
+                id="name"
+                type="text"
+                placeholder="Enter you Name"
+                required
+              />
+            </div>
+            <div>
+              <label id="email-label" for="email">Email</label>
+            </div>
+            <div>
+              <input
+                id="email"
+                type="email"
+                placeholder="Enter you Email Id"
+                required
+              />
+            </div>
+            <div>
+              <label id="number-label" for="number">Age(optional)</label>
+            </div>
+            <div>
+              <input
+                id="number"
+                type="number"
+                min="13"
+                max="65"
+                placeholder="Age"
+                title="Please select a value that is no less than 13"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
