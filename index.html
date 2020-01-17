@@ -55,6 +55,64 @@
                 title="Please select a value that is no less than 13"
               />
             </div>
+            
+              <label for="dropdown">What is your favorite feature of freeCodeCamp? </label>
+                <select id="dropdown" name="dropdown" required>
+                <option disabled value>Select an option</option>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+                <option value="">Community</option>
+                <option value="">Open Source</option>
+                </select>    
+              <br>
+          
+              <div id="radio">
+                <label id=radio for="radio">Would you recommend freeCodeCamp to a friend?</label>
+                <label class="input-radio"><input type="radio" name="radio" value="1">Definitely</label>
+                <input type="radio" name="radio" value="2">Maybe
+                <input type="radio" name="radio" value="3">Not Sure
+              </div>
+            
+              <div>
+                <label for="happened">What would you like to see improved? (Check all that apply)</label>     
+     
+  <ul>  
+  <li>
+  <input type="checkbox" name="checkbox" value="1"> Front-end Projects
+  </li>
+  <li>
+  <input type="checkbox" name="checkbox" value="2"> Back-end Projects 
+  </li> 
+  <li>
+  <input type="checkbox" name="checkbox" value="3"> Data Visualization 
+  </li>
+  <li>
+  <input type="checkbox" name="checkbox" value="4"> Challenges 
+  </li>
+  <li>
+  <input type="checkbox" name="checkbox" value="5"> Open Source Community 
+  </li>
+  <li>
+    <input type="checkbox" name="checkbox" value="6"> Gitter help rooms
+    </li>
+    <li>
+      <input type="checkbox" name="checkbox" value="7"> Videos
+      </li> 
+      <li>
+        <input type="checkbox" name="checkbox" value="8"> City Meetups
+        </li>
+        <li>
+          <input type="checkbox" name="checkbox" value="9"> Wiki
+          </li>  
+  </ul>
+
+  <label id="comments" for="textarea">Any Comments or Suggestions?
+    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+    </label>
+         <br> 
+      <button id=submit type="submit">Submit</button>           
+
+
           </form>
         </div>
         <div class="col-md-4"></div>

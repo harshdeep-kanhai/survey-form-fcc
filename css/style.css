@@ -22,3 +22,7 @@ body {
 form input {
   width: 100%;
 }
+
+.input-radio {
+  display: flex;
+}
