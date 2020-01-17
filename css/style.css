@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Eczar|Pacifico&display=swap');
 #title {
   font-family: 'Pacifico', cursive;
-  color: white;
+  color: rgb(235, 140, 140);
 }
 #description {
-  color: whitesmoke;
+  color: rgb(235, 140, 140);
 }
 
 body {
@@ -16,13 +16,11 @@ body {
   font-family: 'Eczar', serif;
   border-radius: 20px;
   font-size: 1.2em;
+  color: white;
   background-color: rgb(98, 168, 168);
 }
 
-form input {
+textarea {
   width: 100%;
-}
-
-.input-radio {
-  display: flex;
+  resize: vertical;
 }
